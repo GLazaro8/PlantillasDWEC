@@ -19,6 +19,7 @@ Primera entrega de Desarrollo Web en Entorno Cliente
 <ul>
   <li>Header</li>  
   <li>Barra de navegación</li>
+  <li>Formulario/Login</li>
   <li>Ejercicios entregados</li>
   <li>Footer</li>
 </ul>
