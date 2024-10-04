@@ -26,7 +26,8 @@ Primera entrega de Desarrollo Web en Entorno Cliente
 
 <h2 id="estilo">Estilo de la página</h2>
 <h3>Paleta de colores</h3>
-![image](https://github.com/user-attachments/assets/2eb080cc-fa7a-483b-a946-e970009222be)
+![image](https://github.com/user-attachments/assets/db1af0cd-69c9-413b-92b5-89b5bbac15ae)
+
 
 
 <h2 id="snippets">Code snippets</h2>
