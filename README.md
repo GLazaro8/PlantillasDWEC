@@ -1,11 +1,14 @@
-# Plantilla03
-Primera entrega de Desarrollo Web en Entorno Cliente
+# Desarrollo Web en Entorno Cliente
+Esta es una aplicación web que permite a los usuarios iniciar sesión y acceder a una página principal con enlaces a recursos útiles, ejercicios y una funcionalidad de cierre de sesión.
 
 <h2>Indice</h2>
 <ul>
   <li><a href="#introduccion">Introducción</a></li>
   <li><a href="#estructura">Estructura</a></li>
   <li><a href="#estilo">Estilo</a></li>
+  <li><a href="#snippets">Snippets</a></li>
+  <li><a href="#caracteristicas">Caracteristicas</a></li>
+  <li><a href="#archivos">Estructura de archivos</a></li>
 </ul>
 
 <h2 id="introduccion">Introducción</h2>
@@ -28,16 +31,10 @@ Primera entrega de Desarrollo Web en Entorno Cliente
 <h3>Paleta de colores</h3>
 ![image](https://github.com/user-attachments/assets/db1af0cd-69c9-413b-92b5-89b5bbac15ae)
 
-
-
 <h2 id="snippets">Code snippets</h2>
 <p>Aún no he usado Snippets pero planeo introducirlos para las siguientes entregas</p>
 
-# Aplicación Web de Ejemplos
-
-Esta es una aplicación web que permite a los usuarios iniciar sesión y acceder a una página principal con enlaces a recursos útiles, ejercicios y una funcionalidad de cierre de sesión.
-
-## Características
+<h2 id="caracteristicas">Características</h2>
 
 - **Inicio de Sesión**: Los usuarios deben iniciar sesión con un nombre de usuario y contraseña.
 - **Mensaje de Bienvenida**: Al iniciar sesión correctamente, se muestra un mensaje de bienvenida antes de redirigir a la página principal.
@@ -51,7 +48,7 @@ Esta es una aplicación web que permite a los usuarios iniciar sesión y acceder
 - **Cierre de Sesión**: Opción para cerrar sesión y volver a la pantalla de inicio de sesión.
 - **Manejo de Cookies**: La aplicación utiliza cookies para mantener la sesión activa durante 1 minuto.
 
-## Estructura de Archivos
+<h2 id="archivos">Estructura de archivos</h2>
 
 - `login.html`: Página de inicio de sesión.
 - `ejercicios/`: Contiene los ejercicios de Number y en un futuro los de String.
