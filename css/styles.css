@@ -138,8 +138,10 @@ form #ingresar:hover {
 #loginMessage {
   display: none; /* Oculto por defecto */
   text-align: center;
-  margin-top: 10px;
-  font-weight: bold;
+  margin: auto ;
+  padding: 10px ;
+  max-width: 400px ;
+  font-weight: bold ;
 }
 
 .container {

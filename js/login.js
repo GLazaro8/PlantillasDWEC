@@ -41,23 +41,21 @@
     const contenido = document.getElementById("contenido") ;
     const logoutButton = document.getElementById("logoutButton") ;
 
-    if (getCookie("loggedIn") === "true") {
-        window.location.replace("./ejercicios/index.html") ; // Si el usuario está logueado, mostramos el contenido principal    
-    } else {
-        window.location.replace("./login.html") ; // Si no está logueado, mostramos la tarjeta de login
-    }
-
     loginForm.addEventListener("submit", function (event) {
         event.preventDefault();
 
-        let usuario = document.getElementById("username").value ;
-        let contrasena = document.getElementById("password").value ;
+        if (getCookie("loggedIn") === "true") {
+            window.location.replace("./ejercicios/index.html") ; // Si el usuario está logueado, mostramos el contenido principal    
+        } else {
 
-        if(usuario === "gonzalo" && contrasena === "123456") {
-            loginExitoso();
-        }else{
-            loginFallido() ;
+            let usuario = document.getElementById("username").value ;
+            let contrasena = document.getElementById("password").value ;
+
+            if(usuario === "gonzalo" && contrasena === "123456") {
+                loginExitoso();
+            }else{
+                loginFallido() ;
+            }
         }
-        
     } )
 

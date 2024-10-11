@@ -110,6 +110,17 @@ li.dropdown {
   flex: 1 1 100%;
 }
 
+.cardBody input {
+  margin-bottom: 10px;
+}
+
+.cardBody #resultado {
+  background-color: #72e09e;
+  padding: 10px ;
+  border-radius: 10px;
+  width: auto ;
+}
+
 .cardFooter {
   background: rgb(50,205,50,0.25);
   border-radius: 0 0 15px 15px;
