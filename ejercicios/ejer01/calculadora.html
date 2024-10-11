@@ -21,21 +21,29 @@
     <img id="foto" src="./img/fotoperfil.jpg">
   </div>
 
-  <div class="topnav">
-    <a href="https://www.w3schools.com/js/default.asp">w3schools</a>
-    <a href="https://es.javascript.info/js">javascript.info</a>
-    <a href="https://developer.mozilla.org/es/docs/Web/JavaScript">MDN</a>
-  </div>
-  <br />
+  <ul class="topnav">
+    <li><a href="https://www.w3schools.com/js/default.asp">w3schools</a></li>
+    <li><a href="https://es.javascript.info/js">javascript.info</a></li>
+    <li><a href="https://developer.mozilla.org/es/docs/Web/JavaScript">MDN</a></li>
+    <li class="dropdown">
+      <a class="dropbtn">Number</a>
+      <div class="dropdown-content">
+        <a href="#">Calculadora</a>
+        <a href="../ejer02/cambioBase.html">Cambio de Base</a>
+      </div>
+    </li>
+    <li><a href="../login.html" id="logoutButton">Cerrar Sesión</a></li>
+  </ul>
+  <br/>
 
   <div class="container">
     <div class="card">
-      <div class="cardTitle">Indicaciones del ejercicio 02</div>
+      <div class="cardTitle">Mini Calculadora</div>
       <div class="cardBody">
         <input id="boton" type="button" value="Pulsame">
-        <p id="resultado" name="ejercicio02">(Aquí mostramos el <strong>resultado</strong> del <code>ejercicio 02</code>...)</p>
+        <p id="resultado" name="ejercicio01">(Aquí mostramos el <strong>resultado</strong> del <code>ejercicio01</code>...)</p>
       </div>
-      <div class="cardFooter"><a href="../../index.html">&gt;&gt; Página principal</a></div>
+      <div class="cardFooter"><a href="../index.html">&gt;&gt; Página principal</a></div>
     </div>
   </div>
   <br />

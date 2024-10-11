@@ -13,7 +13,7 @@ body {
   color: rgb(255,250,250,0.90);
   text-shadow: 2px 2px 4px rgb(0,0,0,0.75);
   border-radius: 20px ;
-  margin-bottom: 5px ;
+  margin-bottom: 20px ;
 }
 
 #foto {
@@ -22,38 +22,75 @@ body {
   height: 80px;
 }
 
-.topnav {
+ul {
+  list-style-type: none;
+  margin-bottom: 20px;
+  padding: 0;
   overflow: hidden;
   background-color: rgb(19, 166, 78);
   opacity: 0.85;
   border-radius: 20px;
 }
 
-.topnav a {
+li {
   float: left;
-  display: block;
-  color: rgb(255,250,250,0.90);
-  text-shadow: 2px 2px 4px rgb(0,0,0,0.75);
+  font-size: medium;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-.topnav a:hover {
+li a:hover, .dropdown:hover .dropbtn {
   background-color: rgb(58, 183, 108);
   color: white;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #c8c8c8;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 .login {
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 500px;
   margin: auto;
   justify-content: space-between;
   border: 1px solid rgb(211,211,211,0.5);
   box-shadow: 2px 2px 8px 4px #d3d3d3d1;
   border-radius: 15px;
   font-family: sans-serif;
+  font-size: large;
 }
 
 form {
@@ -65,13 +102,12 @@ form h2 {
   text-align: center;
 }
 
-#errorMessage {
-  margin: auto ;
-  width: 300px;
-  text-align: center;
-  color: rgb(176, 0, 0) ;
-  padding-bottom: 5px ;
-  padding-top: 10px;
+form #username {
+  font-size: medium;
+}
+
+form #password {
+  font-size: medium;
 }
 
 form #ingresar {
@@ -99,6 +135,13 @@ form #ingresar:hover {
     transition: 0.5s;
 }
 
+#loginMessage {
+  display: none; /* Oculto por defecto */
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -110,11 +153,13 @@ form #ingresar:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: auto;
+  width: 50%;
   border: 1px solid rgb(211,211,211,0.5);
   box-shadow: 2px 2px 8px 4px #d3d3d3d1;
   border-radius: 15px;
   font-family: sans-serif;
+  text-align: center;
+  font-size: medium;
 }
 
 .cardTitle {
@@ -144,6 +189,14 @@ form #ingresar:hover {
 @media screen and (max-width: 600px) {
   .container {
     width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .login {
+    width: 100%; /* Para que el formulario de login ocupe todo el ancho en móviles */
+  }
+  .card {
+    width: 90%; /* Ajusta el ancho de las tarjetas para pantallas más pequeñas */
   }
 }
 
@@ -153,4 +206,5 @@ form #ingresar:hover {
   padding: 20px;
   color: rgb(255, 255, 255);
   border-radius: 20px;
+  margin-top: 20px;
 }
