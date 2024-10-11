@@ -1,4 +1,4 @@
-# Desarrollo Web en Entorno Cliente
+# Prácticas para Desarrollo Web en Entorno Cliente
 Esta es una aplicación web que permite a los usuarios iniciar sesión y acceder a una página principal con enlaces a recursos útiles, ejercicios y una funcionalidad de cierre de sesión.
 
 <h2>Indice</h2>
