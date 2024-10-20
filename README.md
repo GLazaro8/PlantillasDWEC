@@ -42,11 +42,12 @@ Esta es una aplicación web que permite a los usuarios iniciar sesión y acceder
   - W3Schools
   - Información sobre JavaScript
   - Documentación de Mozilla
-- **Dropdown de Ejercicios**: Incluye dos ejercicios:
+- **Dropdown de Ejercicios Numbers**: Incluye dos ejercicios:
   - Mini Calculadora
   - Cambio de Base
-- **Cierre de Sesión**: Opción para cerrar sesión y volver a la pantalla de inicio de sesión.
-- **Manejo de Cookies**: La aplicación utiliza cookies para mantener la sesión activa durante 1 minuto.
+- **Botón String**: Incluye el ejercicio de transformador de texto de string.
+- **Cierre de Sesión**: Elimina el item creado y cierra la sesión redirigiéndote al Login.
+- **Manejo de LocalStorage**: La aplicación crea un item loggedIn para mantener la sesión abierta.
 
 <h2 id="archivos">Estructura de archivos</h2>
 
@@ -55,19 +56,23 @@ Esta es una aplicación web que permite a los usuarios iniciar sesión y acceder
   - `ejer01/`: Todo lo que tiene el ejercicio de la calculadora.
     - `calculadora.html`: Página de la mini calculadora.
     - `js/`: Carpeta que contiene los archivos JavaScript:
-      - `calculadora.js`: Hoja de estilos de la calculadora.
+      - `calculadora.js`: Archivo js de la calculadora de number.
     - `css/`: Carpeta que contiene los estilos CSS.
       - `styles.css`: Archivo de estilos del login y en lo que se basan los demás archivos css.
   - `ejer02/`: Todo lo que tiene el ejercicio de cambio de base.
     - `js/`: Carpeta que contiene los archivos JavaScript:
-      - `cambioBase.js`: Hoja de estilos de la calculadora.
+      - `cambioBase.js`: Archivo js del cambio de base de number.
     -  `css/`: Carpeta que contiene los estilos CSS.
       - `styles.css`: Archivo de estilos del login y en lo que se basan los demás archivos css.
     - `cambioBase.html`: Página para el cambio de base.
+  - `ejer03/`: Todo lo que tiene el ejercicio de string.
+    - `js/`: Carpeta que contiene los archivos JavaScript:
+      - `transformador.js`: Archivo js del transformador de texto de string.
+    -  `css/`: Carpeta que contiene los estilos CSS.
+      - `styles.css`: Archivo de estilos del login y en lo que se basan los demás archivos css.
+    - `cambioBase.html`: Página para el transformador de texto.
 - `css/`: Carpeta que contiene los estilos CSS.
   - `styles.css`: Archivo de estilos del login y en lo que se basan los demás archivos css.
 - `js/`: Carpeta que contiene los archivos JavaScript:
-  - `login.js`: Verifica el usuario y contraseña.
-  - `funciones.js`: Conjunto de funciones utilitarias.
-  - `cookies.js`: Funciones para manejar cookies (`setCookie`, `getCookie`, `eraseCookie`).
+  - `login.js`: Verifica el usuario y contraseña. Además contiene todas las demás funciones necesarias para el correcto funcionamiento del mismo.
 - `img/`: Carpeta que contiene tanto el favicon como otras imágenes.
