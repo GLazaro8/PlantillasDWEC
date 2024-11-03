@@ -37,7 +37,6 @@ Esta es una aplicación web que permite a los usuarios iniciar sesión y acceder
 <h2 id="caracteristicas">Características</h2>
 
 - **Inicio de Sesión**: Los usuarios deben iniciar sesión con un nombre de usuario y contraseña.
-- **Mensaje de Bienvenida**: Al iniciar sesión correctamente, se muestra un mensaje de bienvenida antes de redirigir a la página principal.
 - **Barra de Navegación**: Incluye enlaces a:
   - W3Schools
   - Información sobre JavaScript
@@ -46,6 +45,7 @@ Esta es una aplicación web que permite a los usuarios iniciar sesión y acceder
   - Mini Calculadora
   - Cambio de Base
 - **Botón String**: Incluye el ejercicio de transformador de texto de string.
+- **Botón Array**: Incluye el ejercicio de Array que genera 2 matrices cuadradas y te permite realizar distintas operaciones entre ellas.
 - **Cierre de Sesión**: Elimina el item creado y cierra la sesión redirigiéndote al Login.
 - **Manejo de LocalStorage**: La aplicación crea un item loggedIn para mantener la sesión abierta.
 
@@ -70,7 +70,13 @@ Esta es una aplicación web que permite a los usuarios iniciar sesión y acceder
       - `transformador.js`: Archivo js del transformador de texto de string.
     -  `css/`: Carpeta que contiene los estilos CSS.
       - `styles.css`: Archivo de estilos del login y en lo que se basan los demás archivos css.
-    - `cambioBase.html`: Página para el transformador de texto.
+    - `string.html`: Página para el transformador de texto.
+  - `ejer04/`: Todo lo que tiene el ejercicio de array.
+    - `js/`: Carpeta que contiene los archivos JavaScript:
+      - `matrices.js`: Archivo js del ejercicio de operaciones con matrices.
+    -  `css/`: Carpeta que contiene los estilos CSS.
+      - `styles.css`: Archivo de estilos del login y en lo que se basan los demás archivos css.
+    - `array.html`: Página para las operaciones con matrices.
 - `css/`: Carpeta que contiene los estilos CSS.
   - `styles.css`: Archivo de estilos del login y en lo que se basan los demás archivos css.
 - `js/`: Carpeta que contiene los archivos JavaScript:

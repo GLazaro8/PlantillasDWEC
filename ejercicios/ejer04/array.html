@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operaciones con Matrices</title>
+    <link href="./css/styles.css" rel="stylesheet" type="text/css" />
+    <script defer src="./js/matrices.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <h3>Ejemplos – FUNDAMENTOS DE JS (ES6)</h3>
+        <h4>Desarrollo WEB en entorno cliente</h4>
+        <h5>Plantilla03b</h5>
+        <img id="foto" src="../ejer03/img/fotoperfil.jpg">
+    </div>
+
+    <ul class="topnav">
+        <li><a href="https://www.w3schools.com/js/default.asp">w3schools</a></li>
+        <li><a href="https://es.javascript.info/js">javascript.info</a></li>
+        <li><a href="https://developer.mozilla.org/es/docs/Web/JavaScript">MDN</a></li>
+        <li class="dropdown">
+            <a class="dropbtn">Number</a>
+            <div class="dropdown-content">
+                <a href="../ejer01/calculadora.html">Calculadora</a>
+                <a href="../ejer02/cambioBase.html">Cambio de Base</a>
+            </div>
+        </li>
+        <li><a href="../ejer03/string.html">String</a></li>
+        <li><a href="#">Array</a></li>
+    </ul>
+    <br />
+
+    <div class="container" id="contenido">
+        <div class="card">
+            <div class="cardBody">
+                <h1>Operaciones con Matrices Cuadradas</h1>
+                <label for="matrixSize">Tamaño de la matriz (N x N):</label>
+                <input type="number" id="matrixSize" min="2" max="10" value="3">
+                <br><br>
+                <label for="minValue">Valor mínimo:</label>
+                <input type="number" id="minValue" value="0">
+                <br><br>
+                <label for="maxValue">Valor máximo:</label>
+                <input type="number" id="maxValue" value="10">
+                <br><br>
+                <button onclick="generateMatrices()">Generar Matrices</button>
+                <button onclick="sumMatrices()">Sumar</button>
+                <button onclick="subtractMatrices()">Restar</button>
+                <button onclick="multiplyMatrices()">Multiplicar</button>
+                <br><br>
+                <h2>Matriz A:</h2>
+                <div id="matrixAContainer"></div>
+                <h2>Matriz B:</h2>
+                <div id="matrixBContainer"></div>
+                <h2>Resultado:</h2>
+                <div id="resultContainer"></div>
+            </div>
+            <div class="cardFooter"><a href="../index.html">&gt;&gt; Página principal</a></div>
+        </div>
+    </div>
+    <br />
+
+    <div class="footer">
+        © Gonzalo Lázaro Zambrano ☺
+    </div>
+</body>
+</html>
+
+
