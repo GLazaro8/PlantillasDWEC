@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="./mainCola.js" type="module"></script>
+    <script src="./modules/scriptCola.js" type="module"></script>
+    <script src="./modules/aleatorio.js" type="module"></script>
+    <script src="./classes/Cola.js" type="module"></script>
+	<link rel="stylesheet" href="./css/styles.css" />
+	<link href="./img/favicon.ico" rel="icon" type="image/x-icon" >
+	<title>Cola</title>
+</head>
+
+<body>
+	<div class="header">
+        <h3>Ejemplos – FUNDAMENTOS DE JS (ES6)</h3>
+        <h4>Desarrollo WEB en entorno cliente</h4>
+        <img id="foto" src="../ejer05/img/fotoperfil.jpg">
+    </div>
+
+    <ul class="topnav">
+		<li><a href="https://www.w3schools.com/js/default.asp">w3schools</a></li>
+		<li><a href="https://es.javascript.info/js">javascript.info</a></li>
+		<li><a href="https://developer.mozilla.org/es/docs/Web/JavaScript">MDN</a></li>
+		<li class="dropdown">
+			<a class="dropbtn">Number</a>
+			<div class="dropdown-content">
+				<a href="../ejer01/calculadora.html">Calculadora</a>
+				<a href="../ejer02/cambioBase.html">Cambio de Base</a>
+			</div>
+		</li>
+		<li><a href="../ejer03/string.html">String</a></li>
+		<li><a href="../ejer04/array.html">Array</a></li>
+		<li class="dropdown">
+			<a class="dropbtn">CRUD</a>
+			<div class="dropdown-content">
+				<a href="../ejer05/cookiesCRUD.html">CRUD on Cookies</a>
+				<a href="../ejer05/sessionCRUD.html">CRUD con Session Storage</a>
+				<a href="../ejer06/indexedDBCRUD.html">CRUD con IndexedDB</a>
+			</div>
+		</li>
+		<li class="dropdown">
+			<a class="dropbtn">POO</a>
+			<div class="dropdown-content">
+				<a href="./pila.html">Pila</a>
+				<a href="#">Cola</a>
+				<a href="./lista.html">Lista</a>
+			</div>
+		</li>
+	</ul>
+	<br />
+
+	<div class="container" id="contenido">
+		<div class="card">
+            <div class="cardBody">
+                <h2>Cola</h2>
+                <div class="grid-container">
+        
+                    <div class="grid-item">
+                        <div class="title">Ejercicios con Arrays</div>
+                    </div>
+
+                    <div class="grid-item">
+                        <p><strong>Cola</strong></p>
+                        <input type="button" id="llegada" value="Llegada" />
+                        <input type="button" id="atender" value="Atender" />
+                    </div>
+                    <div class="grid-item">
+                        <p><strong>Resultado</strong></p>
+                        <p id="resCola"></p>
+                    </div>
+                </div>
+			</div>
+			<div class="cardFooter"><a href="../index.html">&gt;&gt; Página principal</a></div>
+		</div>
+	</div>
+
+	<div class="footer">
+        © Gonzalo Lázaro Zambrano ☺
+    </div>
+</body>
+
+</html>
