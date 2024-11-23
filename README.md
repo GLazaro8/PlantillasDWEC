@@ -54,58 +54,58 @@ Esta es una aplicación web que permite a los usuarios iniciar sesión y acceder
 login.html: Página de inicio de sesión.
 
 ejercicios/: Contiene los ejercicios de Number y en un futuro los de String.
-  ejer01/:
-    calculadora.html: Página de la mini calculadora.
-    js/:
-      calculadora.js: Archivo js de la calculadora de number.
-    css/:
-      styles.css: Archivo de estilos del login y en lo que se basan los demás archivos css.
+- ejer01/:
+    - - calculadora.html: Página de la mini calculadora.
+    - - js/:
+      - - - calculadora.js: Archivo js de la calculadora de number.
+    - - css/:
+      - - - styles.css: Archivo de estilos del login y en lo que se basan los demás archivos css.
 
-  ejer02/:
-    cambioBase.html: Página para el cambio de base.
-    js/:
-      cambioBase.js: Archivo js del cambio de base de number.
-    css/:
-      styles.css: Archivo de estilos del login y en lo que se basan los demás archivos css.
+- ejer02/:
+    - - cambioBase.html: Página para el cambio de base.
+    - - js/:
+      - - - cambioBase.js: Archivo js del cambio de base de number.
+    - - css/:
+      - - - styles.css: Archivo de estilos del login y en lo que se basan los demás archivos css.
 
-  ejer03/:
-    string.html: Página para el transformador de texto.
-    js/:
-      transformador.js: Archivo js del transformador de texto de string.
-    css/:
-      styles.css: Archivo de estilos del login y en lo que se basan los demás archivos css.
+- ejer03/:
+    - - string.html: Página para el transformador de texto.
+    - - js/:
+      - - - transformador.js: Archivo js del transformador de texto de string.
+    - - css/:
+      - - - styles.css: Archivo de estilos del login y en lo que se basan los demás archivos css.
 
-  ejer04/:
-    array.html: Página para las operaciones con matrices.
-    js/:
-      matrices.js: Archivo js del ejercicio de operaciones con matrices.
-    css/:
-      styles.css: Archivo de estilos del login y en lo que se basan los demás archivos css.
+- ejer04/:
+    - - array.html: Página para las operaciones con matrices.
+    - - js/:
+      - - - matrices.js: Archivo js del ejercicio de operaciones con matrices.
+    - - css/:
+      - - - styles.css: Archivo de estilos del login y en lo que se basan los demás archivos css.
 
-  ejer05/:
-    cookiesCRUD.html: Página para el CRUD en cookies.
-    sessionCRUD.html: Página para el CRUD con session storage.
-    js/:
-      cookiesCRUD.js: Archivo js para el CRUD en cookies.
-      sessionCRUD.js: Archivo js para el CRUD con session storage.
-    css/:
-      styles.css: Archivo de estilos del login y en lo que se basan los demás archivos css.
+- ejer05/:
+    - - cookiesCRUD.html: Página para el CRUD en cookies.
+    - - sessionCRUD.html: Página para el CRUD con session storage.
+    - - js/:
+      - - - cookiesCRUD.js: Archivo js para el CRUD en cookies.
+      - - - sessionCRUD.js: Archivo js para el CRUD con session storage.
+    - - css/:
+      - - - styles.css: Archivo de estilos del login y en lo que se basan los demás archivos css.
 
-  ejer06/:
-    indexedDBCRUD.html: Página para el CRUD con indexedDB.
-    js/:
-      indexedDBCRUD.js: Archivo js para el CRUD con indexedDB.
-    css/:
-      styles.css: Archivo de estilos del login y en lo que se basan los demás archivos css.
+- ejer06/:
+    - - indexedDBCRUD.html: Página para el CRUD con indexedDB.
+    - - js/:
+      - - - indexedDBCRUD.js: Archivo js para el CRUD con indexedDB.
+    - - css/:
+      - - - styles.css: Archivo de estilos del login y en lo que se basan los demás archivos css.
 
-  ejer07/:
-    cola.html: Página para las operaciones de cola.
-    mainCola.js: Archivo js para la gestión de cola.
-    mainPila.js: Archivo js para la gestión de pila.
-    js/:
-      cola.js: Archivo js para las operaciones con cola.
-    css/:
-      styles.css: Archivo de estilos del login y en lo que se basan los demás archivos css.
+- ejer07/:
+    - - cola.html: Página para las operaciones de cola.
+    - - mainCola.js: Archivo js para la gestión de cola.
+    - - mainPila.js: Archivo js para la gestión de pila.
+    - - js/:
+      - - - cola.js: Archivo js para las operaciones con cola.
+    - - css/:
+      - - - styles.css: Archivo de estilos del login y en lo que se basan los demás archivos css.
 
 css/:
   styles.css: Archivo de estilos del login y en lo que se basan los demás archivos css.
